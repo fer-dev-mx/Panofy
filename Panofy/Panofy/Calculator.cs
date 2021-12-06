@@ -15,5 +15,15 @@ namespace Panofy
         {
             return x - y;
         }
+
+        public double Divide(int x, int y)
+        {
+            return x / y;
+        }
+
+        public double SquareRoot(double x)
+        {
+            return Math.Sqrt(x);
+        }
     }
 }
